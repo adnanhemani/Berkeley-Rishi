@@ -3,7 +3,6 @@ class HomeController < ApplicationController
     @api_key = ENV['google_api_key']
     @wards = Ward.all
     @coordinates = Coordinate.all
-    @coordinates = Coordinate.all
     @marker_hash = Gmaps4rails.build_markers(@coordinates) do |coordinate, marker|
       marker.lat coordinate.lat
       marker.lng coordinate.lng
