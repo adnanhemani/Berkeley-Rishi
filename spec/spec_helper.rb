@@ -1,4 +1,6 @@
 require 'simplecov'
+require 'simplecov-cobertura'
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 require "rack_session_access/capybara"
 require 'capybara/rspec'
 require 'capybara'

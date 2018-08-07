@@ -14,6 +14,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'figaro'
 gem 'gmaps4rails'
 gem 'omniauth-google-oauth2'
+gem 'simplecov-cobertura'
 
 group :development, :test do
   gem 'byebug'
